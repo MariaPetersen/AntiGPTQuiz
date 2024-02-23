@@ -28,9 +28,9 @@ class ReceiveAnswers {
         $results = new stdClass();
         foreach ($this->answers as $id => $answer) {
             if($this->jsonData->$id->answer == $answer) {
-                $results->$id = "true";
+                $results->$id = true;
             } else {
-                $results->$id = "false";
+                $results->$id = false;
             }
         }
         return $results;
