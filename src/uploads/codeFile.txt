@@ -1,0 +1,18 @@
+import React from "react";<br />
+import { createRoot } from "react-dom/client";<br />
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";<br />
+import { routesConfig } from "./routes/routes";<br />
+<br />
+const root = document.getElementById("root");<br />
+<br />
+createRoot(root).render(<br />
+  <React.StrictMode><br />
+    <Router><br />
+      <Routes><br />
+        {routesConfig.map((route, index) => (<br />
+          <Route key={index} path={route.path} element={route.element} /><br />
+        ))}<br />
+      </Routes><br />
+    </Router><br />
+  </React.StrictMode><br />
+);<br />

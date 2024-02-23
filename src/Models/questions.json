@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "question": "function add(a, b) { return a + ?; }",
+    "answer": "b"
+  },
+  {
+    "id": 2,
+    "question": "function multiply(x, y) { return x * ?; }",
+    "answer": "y"
+  },
+  {
+    "id": 3,
+    "question": "function greet(name) { return 'Hello, ?!'; }",
+    "answer": "name"
+  },
+  {
+    "id": 4,
+    "question": "function findMax(arr) { return Math.max(...arr, ?); }",
+    "answer": "...arr"
+  },
+  {
+    "id": 5,
+    "question": "function capitalize(str) { return str.toUppercase(?); }",
+    "answer": "str"
+  }
+]
